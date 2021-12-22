@@ -1,0 +1,153 @@
+
+:root {
+    --body-bg:rgb(159, 212, 243); 
+    --colorBackground: rgb(253, 252, 252, 0.822);
+    --text: rgba(0, 0, 0, 0.911);
+    --border: rgb(97, 255, 97);
+    --IMG: url("../img/LigthMode.jpg") 
+
+}  
+.dark-mode{
+    --body-bg: black;
+    --colorBackground: #46464693;
+    --text: white;
+    --border: rgb(185, 2, 109);
+    --IMG: url("../img/DarkMode.jpg")
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+
+#darkmodebutton{
+    width: 10%;
+    font-size: 100%;
+    border: 3px solid var(--border);
+    border-radius: 30px;
+    background-color: var(--colorBackground);
+    color: var(--text);
+    padding: 1%;
+    font-family: 'Lato', sans-serif;  
+    
+
+}
+
+body {
+
+    background-image: var(--IMG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  
+}
+
+.header{
+    text-align: center;
+    margin: 4% 19%;
+    background-color: var(--colorBackground);
+    border: 3px solid var(--border);
+    border-radius: 30px;
+    color: var(--text);
+   
+}
+
+.logo {
+    width: 60%;
+    opacity: 100%; 
+}
+
+.fotoAle{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+   
+}
+
+
+
+.menu { 
+    width: 100%;
+    text-align: center; 
+}
+
+
+.bkcW {
+    background-color: var(--colorBackground);
+    border-radius: 30px;
+    margin: 4%;
+    border: 3px solid var(--border);
+    
+
+}
+
+.botao {
+    background-color: var(--colorBackground);
+    text-align: center;
+    font-size: 100%;
+    color: var(--text);
+    width: 30%;
+    padding: 5%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid var(--border);
+    transition: .5s;
+    font-family: 'Lato', sans-serif;  
+}
+
+.botao:hover {
+    background-color: rgb(255, 214, 238);
+    color:white;
+}
+
+
+
+.text {
+    color: var(--text);
+    padding: 0px 60px 60px ;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+form {
+    border-radius: 10px;
+    margin: 5%;
+    font-family: Verdana,Tahoma,sans-serif; 
+    background-color: var(--colorBackground);
+    padding: 60px;
+    border: 3px solid var(--border);
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    background-color: rgb(255, 214, 238);
+}
+
+.espaco{
+    padding-bottom: 600px;
+
+}
+
+#idNome{
+    width: 50%;
+}
+#textarea{
+    height: 100px;
+}
+
+#botaoform{
+    width: 40%;
+    height: 20%;
+
+}
+
+#botoes{
+    padding-bottom: 60px;
+}
