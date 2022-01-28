@@ -49,8 +49,6 @@ body {
     flex-wrap: wrap; 
 }
 
-
-
 .header{
     text-align: center;
     margin: 4% 19%;
@@ -62,9 +60,7 @@ body {
     font-family: 'Lato', sans-serif;  
 }
 
-.row{
-    text-align: center;
-}
+
 
 .logo {
     width: 60%;
